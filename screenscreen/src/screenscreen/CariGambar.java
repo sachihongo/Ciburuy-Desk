@@ -76,6 +76,7 @@ public class CariGambar extends javax.swing.JFrame implements ActionListener {
             cards[i].setSize(100,100);
             cards[i].setIcon(new ImageIcon(getClass().getResource("/screenscreen/CariGambar/background.PNG")));
             cards[i].setText("");
+            cards[i].setFont(new java.awt.Font("Lucida Grande", 1, 0));
             cardPane.add(cards[i]);
         }
         getContentPane().add(buttonPane,
