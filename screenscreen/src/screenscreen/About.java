@@ -50,17 +50,23 @@ public class About extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(2, 167, 104));
         jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("OUR TEAM");
+        jLabel2.setText("Dosen Pembimbing");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(440, 260, 190, 40);
+        jLabel2.setBounds(440, 240, 210, 40);
 
         jLabel4.setText("Reynaldi Noer R");
 
@@ -97,7 +103,7 @@ public class About extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel2);
-        jPanel2.setBounds(50, 330, 220, 220);
+        jPanel2.setBounds(50, 640, 220, 220);
 
         jLabel6.setText("Sachi Hongo");
 
@@ -113,14 +119,14 @@ public class About extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addGap(77, 77, 77))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel18)
                         .addGap(31, 31, 31))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51))))
+                        .addGap(51, 51, 51))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addGap(67, 67, 67))))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -135,7 +141,7 @@ public class About extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel3);
-        jPanel3.setBounds(300, 330, 220, 220);
+        jPanel3.setBounds(310, 640, 220, 220);
 
         jLabel10.setText("Muhammad Islam T");
 
@@ -173,7 +179,7 @@ public class About extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel4);
-        jPanel4.setBounds(790, 330, 220, 220);
+        jPanel4.setBounds(810, 640, 220, 220);
 
         jLabel8.setText("Paquita Putri");
 
@@ -191,13 +197,13 @@ public class About extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                         .addComponent(jLabel19)
                         .addGap(31, 31, 31))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addGap(75, 75, 75))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(61, 61, 61))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addContainerGap())
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                            .addComponent(jLabel8)
+                            .addGap(75, 75, 75)))))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -212,28 +218,28 @@ public class About extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel5);
-        jPanel5.setBounds(540, 330, 220, 212);
+        jPanel5.setBounds(560, 640, 220, 222);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("CIBIRUY DESK V 1.3");
+        jLabel3.setText("CIBIRUY DESK V 1.5");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(370, 50, 360, 50);
+        jLabel3.setBounds(370, 60, 360, 50);
 
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Ciburuy Desk –adalah aplikasi direktori citra naskah Sunda kuno, dengan feature untuk memvisulisasikan naskah Sunda kuno, ");
+        jLabel12.setText("Ciburuy Desk adalah aplikasi direktori citra naskah Sunda kuno, dengan feature untuk memvisulisasikan naskah Sunda kuno, ");
         jPanel1.add(jLabel12);
-        jLabel12.setBounds(180, 130, 720, 30);
+        jLabel12.setBounds(180, 150, 720, 30);
 
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("galeri citra non naskah, karya ilmiah terkait riset situs Ciburuy, permainan, transliterasi, indeksasi, dan mesin pencari.");
         jPanel1.add(jLabel13);
-        jLabel13.setBounds(200, 150, 720, 30);
+        jLabel13.setBounds(200, 170, 720, 30);
 
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Aplikasi desktop ini merupakan wujud pelestarian budaya yang dikhususkan untuk naskah yang ada di Situs Ciburuy.");
         jPanel1.add(jLabel14);
-        jLabel14.setBounds(200, 170, 720, 30);
+        jLabel14.setBounds(200, 190, 720, 30);
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenscreen/icon/icons8_Back_To_32px.png"))); // NOI18N
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -244,11 +250,53 @@ public class About extends javax.swing.JFrame {
         jPanel1.add(jLabel15);
         jLabel15.setBounds(20, 20, 50, 40);
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenscreen/img/ESgNJ5.jpeg"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 1060, 600);
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("OUR TEAM");
+        jPanel1.add(jLabel20);
+        jLabel20.setBounds(480, 580, 130, 40);
+
+        jLabel21.setText("Erick Paulus , S.Si., M.Kom.");
+
+        jLabel22.setText("19820318 200604 1 001");
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenscreen/profile/paerick.png"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel22))
+                    .addComponent(jLabel21))
+                .addGap(31, 31, 31))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(41, 41, 41)
+                .addComponent(jLabel23)
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(jLabel23)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel22)
+                .addContainerGap())
+        );
+
+        jPanel1.add(jPanel6);
+        jPanel6.setBounds(430, 300, 230, 260);
+
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/screenscreen/img/unpad.png"))); // NOI18N
+        jPanel1.add(jLabel24);
+        jLabel24.setBounds(260, 20, 150, 130);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -258,10 +306,10 @@ public class About extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 599, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 890, Short.MAX_VALUE)
         );
 
-        setSize(new java.awt.Dimension(1081, 646));
+        setSize(new java.awt.Dimension(1081, 937));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -307,7 +355,6 @@ public class About extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -319,6 +366,11 @@ public class About extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -331,5 +383,6 @@ public class About extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     // End of variables declaration//GEN-END:variables
 }
